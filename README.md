@@ -3,7 +3,7 @@
 ## business-ecosystem-logic-proxy
 ##### Problem: Deploying the docker compose reults in Error:  The specified product id is not indexed undefined
 Current workaround:
-Retry docker-compose down & docker-compose up -d until error no longer appears
+Retry docker-compose down & docker-compose up -d until error no longer appears<br/>
 Suspected issue: race condition when creating the indexes. 
 
 
