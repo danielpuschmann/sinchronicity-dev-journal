@@ -1,5 +1,12 @@
 #Common Issues
 
+## business-ecosystem-logic-proxy
+##### Problem: Deploying the docker compose reults in Error:  The specified product id is not indexed undefined
+Current workaround:
+Retry docker-compose down & docker-compose up -d until error no longer appears
+Suspected issue: race condition when creating the indexes. 
+
+
 
 ## Marketplace portal
 ##### Problem: The user making the request and the specified owner are not the same user
